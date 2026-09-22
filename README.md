@@ -1,4 +1,3 @@
-# Data-Cleanup-FnB-Sales
 
 # Checking Duplicate records
 
