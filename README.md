@@ -36,8 +36,9 @@ SELECT branch, TRIM(branch) FROM sales_staging2;
 
 UPDATE sales_staging2 SET branch = TRIM(branch);
 
-Here's the example data in consistent data need to fix.
 <img width="184" height="212" alt="image" src="https://github.com/user-attachments/assets/6f210cb3-29cf-4137-a06c-a894dbc6ba06" />
+<img width="141" height="180" alt="image" src="https://github.com/user-attachments/assets/14a03cf1-443b-4caa-8351-b80279efd8b8" />
+
 
 
 
