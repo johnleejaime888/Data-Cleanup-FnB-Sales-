@@ -57,7 +57,8 @@ SELECT DISTINCT product_name, category FROM staging2 WHERE category <> '';
 
 UPDATE staging2 t1
 JOIN (
-	SELECT DISTINCT product_name, category FROM staging2 WHERE category <> ''
+	SELECT DISTINCT product_name, category 
+	FROM staging2 WHERE category <> ''
 ) t2 ON t1.product_name = t2.product_name SET t1.category = t2.category;
 
 SELECT DISTINCT(product_name) FROM staging2;
